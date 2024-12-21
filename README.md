@@ -8,7 +8,7 @@
 
 ## 📜 About  
 - **Daily Puzzles**: Solve programming challenges that test algorithms, problem-solving, and optimization skills.  
-- **Language**: My solutions are implemented in [Language of your choice].  
+- **Language**: My solutions are implemented in Python.  
 - **Focus**: Clean, efficient, and well-documented code for each challenge.
 
 ## 🎯 Goals
