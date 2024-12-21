@@ -3,7 +3,6 @@
 <img src="./media/AoC.png" width=265 alt="Advent of Code">
 
 <span><b>**All my AoC solutions**</b></span>
-
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
