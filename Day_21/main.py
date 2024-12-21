@@ -1,12 +1,12 @@
 # --------------------------------------------------------------------------- #
 #                                                                             #
-#     main.py                                        ::::      ::::::::       #
-#                                                  ++: :+:   :+:    :+:       #
-#     PROJECT: Advent of Code                    #:+   +:+  +:+               #
-#                                              +#++:++#++: +#+                #
-#                                             +#+     +#+ +#+                 #
-#     AUTHOR: Jorge Lopez Puebla             ##+     #+# #+#    #+#           #
-#     LAST ^DATE: 21/12/2024               ###     ###  ########             #
+#     main.py                                  ::::             ::::::::      #
+#                                            ++: :+:          :+:    :+:      #
+#     PROJECT: Advent of Code              #:+   +:+         +:+              #
+#                                        +#++:++#++:        +#+               #
+#                                       +#+     +#+  ++::  +#+                #
+#     AUTHOR: Jorge Lopez Puebla       ##+     #+#  #   # #+#    #+#          #
+#     LAST UPDATE: 21/12/2024         ###     ###   ####  ########            #
 #                                                                             #
 # --------------------------------------------------------------------------- #
 
@@ -103,7 +103,7 @@ def get_min_length(KEYPAD, code, robots) -> int:
 
     # Cache the computed minimal sequence length for this combination of keypad, code, and robots.
     cache[len(KEYPAD), code, robots] = minimal_length
-    
+
     return minimal_length
 
 def solve(robots):
