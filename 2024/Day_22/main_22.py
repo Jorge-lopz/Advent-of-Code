@@ -55,12 +55,11 @@ def sequences(prices, price_changes):
             price_change_sequences[sequence] = prices[i]
     return price_change_sequences
 
-max_bananas = 0
+bananas = {}
 for i, secret in enumerate(secrets):
     price, price_change = price_changes(secret, 2000)
     price_change_sequences = sequences(price, price_change)
     for seq, price in price_change_sequences.items():
-        total_bananas = sum([price_change_sequences[seq] for seq in price_change_sequences])
-        max_bananas = max(max_bananas, total_bananas)
+        bananas[seq] = bananas.get(seq, 0) + price
 
-print("\n\033[0m\033[37mThemax number of bananas we can buy is:\033[0m\033[1m", max_bananas)
+print("\n\033[0m\033[37mThe max number of bananas we can buy is:\033[0m\033[1m", max(bananas.values()))
