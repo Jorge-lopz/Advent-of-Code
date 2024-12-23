@@ -26,7 +26,7 @@ cheats = 0
 for pos in path:
     for d in dirs:
         wall, space = (pos + d, pos + 2 * d)
-        if space >= 0 and space < len(track) and \
+        if 0 <= space < len(track) and \
                 track[wall] == "#" and track[space] != "#" and \
                 cost[space] >= cost[pos] + 2 + cheatcost:
             cheats += 1

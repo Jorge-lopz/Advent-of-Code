@@ -14,8 +14,8 @@
 
 stones: [int]
 
-with open('input.txt', 'r') as file:
-    stones = list(map(int, file.read().split()))
+with open('input.txt', 'r') as f:
+    stones = list(map(int, f.read().split()))
 
 def blink(times: int) -> [int]:
     counts = {}

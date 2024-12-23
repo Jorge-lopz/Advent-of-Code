@@ -17,8 +17,8 @@ right_col: [int] = []
 
 # Read the input
 def read_input():
-    with open('input.txt', 'r') as file:
-        for line in file.read().split('\n'):
+    with open('input.txt', 'r') as f:
+        for line in f.read().split('\n'):
             left_col.append(int(line.split('   ')[0]))
             right_col.append(int(line.split('   ')[1]))
 

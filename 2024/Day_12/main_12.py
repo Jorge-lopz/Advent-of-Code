@@ -14,8 +14,8 @@
 
 memory: [[str]]
 
-with open('input.txt', 'r') as file:
-    memory = [list(line.strip()) for line in file.readlines()]
+with open('input.txt', 'r') as f:
+    memory = [list(line.strip()) for line in f.readlines()]
 
 def get_region(visited, neighbors, pos):
     if pos not in visited:

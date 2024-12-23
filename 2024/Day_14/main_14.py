@@ -19,8 +19,8 @@ from copy import deepcopy  # -> Deep copy a list
 size = (101, 103)
 robots: [[[int], list[int]]] = []
 
-with open('input.txt', 'r') as file:
-    for line in file.readlines():
+with open('input.txt', 'r') as f:
+    for line in f.readlines():
         line = line.split(" ")
         position = [int(re.sub(r"[^0-9-]", "", part)) for part in line[0].split(",")]
         speed = [int(re.sub(r"[^0-9-]", "", part)) for part in line[1].split(",")]

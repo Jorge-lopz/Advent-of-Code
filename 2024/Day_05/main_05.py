@@ -14,9 +14,9 @@
 
 memory: [str]
 
-# Read input file
-with open('input.txt', 'r') as file:
-    memory = file.readlines()
+# Read input f
+with open('input.txt', 'r') as f:
+    memory = f.readlines()
 
 # Find the divider between rules and updates
 divider = next((i for i in range(len(memory)) if ',' in memory[i]), len(memory))

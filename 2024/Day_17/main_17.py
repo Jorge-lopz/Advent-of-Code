@@ -40,12 +40,12 @@ class Opcode(Enum):
     BDV = 6  # division
     CDV = 7  # division
 
-def parse(file_name: str) -> tuple[RegistryDict, list[int]]:
+def parse(f_name: str) -> tuple[RegistryDict, list[int]]:
     registries = RegistryDict()
     program = []
 
-    with open(file_name) as file:
-        for i, line in enumerate(file):
+    with open(f_name) as f:
+        for i, line in enumerate(f):
             if i < 3:
                 registries[RegistryType(i + 4)] = Registry(line.split(":")[1].strip())
 

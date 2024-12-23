@@ -14,12 +14,12 @@
 
 memory: [[str]] = []
 
-# Read input file
+# Read input f
 def get_map():
     global memory
     memory = []
-    with open('input.txt', 'r') as file:
-        for line in file.readlines():
+    with open('input.txt', 'r') as f:
+        for line in f.readlines():
             memory.append([char for char in line])
 
 def get_guard():

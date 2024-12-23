@@ -38,8 +38,8 @@ DIRECTIONAL = {
     if c != ' '
 }
 
-with open('input.txt', 'r') as file:
-    codes = [line.strip() for line in file.readlines()]
+with open('input.txt', 'r') as f:
+    codes = [line.strip() for line in f.readlines()]
 
 def generate_sequences(key_pad, start, end):
     to_check = deque([(start, '')])  # current_position, path_to_reach_it

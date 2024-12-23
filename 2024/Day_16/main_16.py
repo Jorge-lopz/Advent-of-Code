@@ -108,13 +108,13 @@ def getShortest(distances: dict[tuple[int, int, str], int], endLocation: tuple[i
             shortestEnd = i
     return distances[possibleEnds[shortestEnd]], possibleEnds[shortestEnd]
 
-def parseInput(fileName: str):
+def parseInput(fName: str):
     startTime = time.time()
-    with open(fileName, 'r') as file:
+    with open(fName, 'r') as f:
         world: list[list[str]] = []
         endLocation = (0, 0)
         startLocation = (0, 0)
-        for i, line in enumerate(file):
+        for i, line in enumerate(f):
             row = []
             for j, char in enumerate(line.strip()):
                 row.append(char)

@@ -14,9 +14,9 @@
 
 memory: [[int, [int]]] = []
 
-# Read input file
-with open('input.txt', 'r') as file:
-    for line in file.readlines():
+# Read input f
+with open('input.txt', 'r') as f:
+    for line in f.readlines():
         memory.append([int(line.split(': ')[0]), list(map(int, line.split(': ')[1].split(' ')))])
 
 def solve(test_operations):

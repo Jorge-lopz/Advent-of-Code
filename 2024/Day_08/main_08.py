@@ -15,9 +15,9 @@
 memory: [[str]] = []
 antennas: {str: [[int, int]]} = {}
 
-# Read input file
-with open('input.txt', 'r') as file:
-    for row, line in enumerate(file.readlines()):
+# Read input f
+with open('input.txt', 'r') as f:
+    for row, line in enumerate(f.readlines()):
         line_chars = []
         for col, char in enumerate(line.strip()):
             line_chars.append(char)

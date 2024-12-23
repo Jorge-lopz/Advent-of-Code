@@ -20,8 +20,8 @@ instructions: [str] = []
 
 robot: (int, int) = ()  # (y, x)
 boxes: int = 0
-with open('input.txt', 'r') as file:
-    lines = file.readlines()
+with open('input.txt', 'r') as f:
+    lines = f.readlines()
     for y, line in enumerate(lines):
         if line == '\n':
             temp = ""

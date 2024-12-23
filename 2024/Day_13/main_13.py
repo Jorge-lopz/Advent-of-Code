@@ -14,9 +14,9 @@
 
 memory: [{}] = []
 
-with open('input.txt', 'r') as file:
+with open('input.txt', 'r') as f:
     while True:
-        lines = [file.readline().strip() for _ in range(4)]  # 4 to read the blank line after every option
+        lines = [f.readline().strip() for _ in range(4)]  # 4 to read the blank line after every option
         if not all(lines[:2]):  # Stop if any line is missing (apart form the blank line at the end) (EOF)
             break
         option = {}

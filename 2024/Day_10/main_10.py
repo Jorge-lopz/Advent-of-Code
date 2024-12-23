@@ -14,8 +14,8 @@
 
 memory: [[int]]
 
-with open('input.txt', 'r') as file:
-    memory = [[int(char) for char in line.strip()] for line in file.readlines()]
+with open('input.txt', 'r') as f:
+    memory = [[int(char) for char in line.strip()] for line in f.readlines()]
 
 # FIRST PART: Get the sum of scores (number of trail ending 9s) of every trailhead (0)
 scores = []

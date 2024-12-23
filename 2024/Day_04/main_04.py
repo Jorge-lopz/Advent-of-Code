@@ -12,8 +12,8 @@
 
 # SRC: https://adventofcode.com/2024/day/4
 
-with open('input.txt', 'r') as file:
-    memory: [[str]] = [list(line.strip()) for line in file.readlines()]
+with open('input.txt', 'r') as f:
+    memory: [[str]] = [list(line.strip()) for line in f.readlines()]
 
 rows = len(memory)
 cols = len(memory[0])

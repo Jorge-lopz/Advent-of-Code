@@ -15,8 +15,8 @@
 rows: [[int]] = []
 
 # Read the input
-with open('input.txt', 'r') as file:
-    for line in file.readlines():
+with open('input.txt', 'r') as f:
+    for line in f.readlines():
         rows.append(list(map(int, line.split())))
 
 # FIRST PART: Count the safe reports (5 long, either all increasing or decreasing and adjacent differ 1-3 units)

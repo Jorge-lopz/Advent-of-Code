@@ -19,8 +19,8 @@ mul_pattern = r"mul\((\d{1,3}),(\d{1,3})\)"
 do_dont_pattern = r"(do\(\)|don't\(\))"
 
 # Read the input
-with open('input.txt', 'r') as file:
-    memory = file.read()
+with open('input.txt', 'r') as f:
+    memory = f.read()
 
 # FIRST PART: Sum the results of all valid 'mul(X,Y)' instructions
 result = sum(int(x) * int(y) for x, y in re.findall(mul_pattern, memory))
