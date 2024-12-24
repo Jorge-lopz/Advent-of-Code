@@ -67,4 +67,4 @@ result = int(''.join(str(z_wires[f"z{i:02}"]) for i in reversed(range(len(z_wire
 
 print("\n\033[37mThe decimal encoded gate states is:\033[0m\033[1m", result)
 
-# SECOND PART: Get the swapped wires
+# SECOND PART: Get the swapped wires (MANUAL SOLUTION)
