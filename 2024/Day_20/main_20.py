@@ -31,7 +31,7 @@ for pos in path:
                 cost[space] >= cost[pos] + 2 + cheatcost:
             cheats += 1
 
-print(f"part 1: {cheats} cheats")
+print(f"Part 1: {cheats} cheats")
 
 cheats2 = 0
 checknodes = [list() for _ in path]
