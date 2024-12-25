@@ -2,7 +2,7 @@
 
 <img src="./media/AoC.png" width=265 alt="Advent of Code">
 
-<span><b>**💡 All my AoC solutions 💡**</b></span>
+<span><b>**💡 All my [AoC](https://adventofcode.com) solutions 💡**</b></span>
 
 </div>
 
@@ -14,7 +14,7 @@
 
 ## 🎯 Goals
 
-- [ ] Solve all puzzles! **[24/25]**
+- [x] Solve all puzzles! **[25/25]**
 - [x] Enhance problem-solving skills.
 - [x] Celebrate the holiday spirit with the coding community! 🎅
 
