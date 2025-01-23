@@ -33,9 +33,6 @@
       <td>
         <a href=https://adventofcode.com/2024/><b>Advent of Code 2024</b></a>
       </td>
-      <td>
-        <a href="https://aoc.42barcelona.com/ranking/es"><b>📊 42 Ranking 📊</b></a>
-      </td>
     </tr>
   </tbody>
   </table>
