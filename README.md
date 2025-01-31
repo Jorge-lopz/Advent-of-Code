@@ -17,7 +17,7 @@
         <a href=https://github.com/Jorge-lopz/Advent-of-Code/tree/main/2024><b>Solutions</b></a>
       </td>
       <td>
-        <sub><img src="https://img.shields.io/badge/50%20⭐-gray"></sub>
+        <sub><img src="https://img.shields.io/badge/50%20⭐-darkcyan"></sub>
       </td>
       <td>
         <sub><img src="https://img.shields.io/badge/Coming up-black"></sub>
