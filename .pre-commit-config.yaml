@@ -7,3 +7,5 @@ repos:
           - --contrast-improvement-type=dark
           - --count-as-solved-when=on_leaderboard
           - --what-to-show-on-right-side=checkmark
+          - --overwrite-year=2024
+          - --auto-add-tiles-to-git=add
