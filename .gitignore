@@ -1,2 +1,4 @@
 desktop.ini
 .idea
+.aoc_tiles/*
+!.aoc_tiles/tiles/
