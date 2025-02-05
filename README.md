@@ -26,7 +26,11 @@
   </tbody>
   </table>
 
-  <sub><img src="https://wakatime.com/badge/user/43299b95-37b5-4319-89dd-7bbef7fb1dcb/project/d0378091-69c0-4ba8-9009-635e0edd00b5.svg" width=160></sub>
+  <sub>
+      <img src="https://wakatime.com/badge/user/43299b95-37b5-4319-89dd-7bbef7fb1dcb/project/d0378091-69c0-4ba8-9009-635e0edd00b5.svg" width=160>
+        &nbsp;
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=jorge-lopz.adventofcode">
+    </sub>
   
 </div>
 
