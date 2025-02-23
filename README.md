@@ -48,10 +48,4 @@
 - [x] Enhance problem-solving skills.
 - [x] Celebrate the holiday spirit with the coding community! 🎅
 
-##
-
-<!-- AOC TILES BEGIN -->
-
-<!-- AOC TILES END -->
-
 </div>
